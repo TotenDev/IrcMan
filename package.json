@@ -1,0 +1,22 @@
+{
+  "name": "IrcMac",
+  "description": "Irc channel available on rest",
+  "version": "0.0.1",
+  "author": "TotenDev <support@totendev.com>",
+  "contributors": [ 
+    { "name": "Gabriel Debes", "email": "gabriel@totendev.com" }
+  ],
+  "keywords": ["irc"],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TotenDev/IrcMan.git"
+  },
+  "dependencies": {
+    "irc-js": "2.0.0-beta",
+    "restify" : "1.x.x",
+    "mysql" : "2.0.x"
+  },
+  "engines": { "node": "0.8.x" },
+  "license": "MIT"
+}
