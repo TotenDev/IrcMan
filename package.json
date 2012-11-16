@@ -20,6 +20,9 @@
   "devDependencies" : {
       "tap" : "0.0.x"
   },
-  "engines": { "node": "0.8.x" },
+  "engines": {
+    "node": ">= 0.4",
+    "npm":  "1.1.x" 
+  },
   "license": "MIT"
 }
