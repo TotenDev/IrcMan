@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 0.6
+  - 0.7
+  - 0.8
+script: "node main.js --test"
+notifications:
+  irc:
+    channels:
+      - "irc.freenode.org#TotenDev"
+before_install:
+  - git submodule init && git submodule --quiet update
+  - mysql -e create.sql

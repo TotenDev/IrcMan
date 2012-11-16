@@ -17,6 +17,12 @@
     "restify" : "1.x.x",
     "mysql" : "2.0.x"
   },
+  "devDependencies" : {
+      "tap" : "0.0.x"
+  },
   "engines": { "node": "0.8.x" },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts" : {
+      "test" : "tap test/*.js"
+  }
 }

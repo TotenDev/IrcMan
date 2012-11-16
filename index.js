@@ -10,22 +10,22 @@
 var defaultIRCNick = "botNickname";
 var server = require('./lib/server.js')({ 
       irc: {
-          port:6667,
-          encoding:'utf8',
-          nick:defaultIRCNick,
-          log:false,
-          die:false,
-          flood_protection: false,
-          server:"chat.freenode.net",
-          channelName:"#totendev",
-          user: { username:defaultIRCNick,servername:defaultIRCNick,realname:defaultIRCNick,password:"" }
+        port:6667,
+        encoding:'utf8',
+        nick:defaultIRCNick,
+        log:false,
+        die:false,
+        flood_protection: false,
+        server:"chat.freenode.net",
+        channelName:"#totendev",
+        user: { username:defaultIRCNick,servername:defaultIRCNick,realname:defaultIRCNick,password:"" }
        },
       database: {
         host:"localhost",
         user:"root",
-        password:"root",
+        password:"",
         database:"ircMan",
-        port:8889,
+        port:3306,
         debug:false
        },
       restServer: {
