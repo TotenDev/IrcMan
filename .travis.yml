@@ -10,4 +10,4 @@ notifications:
       - "irc.freenode.org#TotenDev"
 before_install:
   - git submodule init && git submodule --quiet update
-  - mysql -e create.sql
+  - mysql -e | cat create.sql
