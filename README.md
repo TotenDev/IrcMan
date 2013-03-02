@@ -4,6 +4,8 @@ IrcMan
 IrcMan is a simple bridge of IRC channels on REST.
 
 [![Build Status](https://secure.travis-ci.org/TotenDev/IrcMan.png?branch=master)](http://travis-ci.org/TotenDev/IrcMan)
+[![Dependency Status](https://gemnasium.com/TotenDev/IrcMan.png)](https://gemnasium.com/TotenDev/IrcMan)
+
 
 ##Requirements
 

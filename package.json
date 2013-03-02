@@ -13,12 +13,12 @@
     "url": "https://github.com/TotenDev/IrcMan.git"
   },
   "dependencies": {
-    "irc-js": "2.0.0-beta",
-    "restify" : "1.x.x",
+    "irc-js": "0.2.x",
+    "restify" : "2.x.x",
     "mysql" : "2.0.x"
   },
   "devDependencies" : {
-      "tap" : "0.0.x"
+      "tap" : "0.4.x"
   },
   "engines": {
     "node": ">= 0.4",
