@@ -1,7 +1,7 @@
 {
   "name": "IrcMac",
   "description": "Irc channel available on rest",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "author": "TotenDev <support@totendev.com>",
   "contributors": [ 
     { "name": "Gabriel Debes", "email": "gabriel@totendev.com" }
